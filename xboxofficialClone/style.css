@@ -1,0 +1,263 @@
+.top-bar{
+    width: 100%;
+    height: 50px;
+   
+    ;
+}
+/* .container{
+    width: 100%;
+    height: 3000px;
+} */
+body{
+    margin: 0;
+}
+.menu{
+    width: 90%;
+    height: 100%;
+    margin-left: 5%;
+    float: left;
+}
+.logo {
+    width: 131px;
+    float: left;
+}
+.main-logo {
+    width: 115px;
+    padding-top: 10px;
+    aspect-ratio: 4;
+    object-fit: contain;
+    float: left;
+}
+.vertical-line {
+    /* margin-left: 50px; */
+    border-left: 1px solid black;
+    height: 27px;
+    float: left;
+    margin-top: 12px
+}
+.list{
+    float: left;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 25px;
+    float: left;
+    padding-left: 0px;
+    cursor: pointer;
+}
+
+
+.marg{
+    margin-left: 85px;
+}
+.mini-logos{
+    width: 28px;
+}
+.top-image{
+    width: 100%;
+}
+.text-over-image {
+    position: absolute;
+    width: 493px;
+    height: 320px;
+    margin-left: 87px;
+    margin-top: -421px;
+    color: #fff;
+}
+.text {
+    font-size: 46px;
+    line-height: 56px;
+    margin: auto;
+    
+}
+.sub-text{
+    font-size: 34px;
+    line-height: 40px;
+}
+button{
+    padding: 5px 20px 5px 22px;
+    color: #054b16;
+    font-weight: 900;
+    background: #9bf00b;
+}
+button:hover{
+    cursor: pointer;
+    
+}
+
+.space {
+    margin-left: 303px;
+    width: 59%;
+    height: 140px;
+}
+.green-image {
+    width: 73px;
+    PADDING-RIGHT: 60PX;
+    MARGIN-BOTTOM: -12PX;
+}
+h3 {
+    color: #107c10;
+    font-weight: 600;
+    MARGIN-LEFT: -10PX;
+    cursor: pointer;
+    width: max-content;
+    position: relative;
+}
+.width-icon {
+    padding-left: 18px;
+}
+.main-top{
+    width: 100%;
+    height: 1200px;
+}
+.main-left{
+    width: 50%;
+    height:100%;
+    float: left;
+}
+.big-box{
+    width: 100%;
+    height: 800px;
+    overflow: hidden;
+}
+.big-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.small-box{
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+} 
+.small-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.main-right{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.half-left{
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-color: #107c10;
+}
+.half-right{
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-color: #107c10;
+}
+.centre-txt{
+    padding-bottom: 0px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 32px;
+}
+.border{
+    padding: 19px;
+}
+.new-season{
+    margin-top: 65px;
+    background-color: #ffd800;
+    color: #000;
+}
+.button-2{
+border-width: 0px;
+color: #fff;
+background-color: rgba(0,0,0,.0);
+}
+.font {
+    padding-top: 68px;
+    font-size: 55px;
+}
+#btn{
+    position: absolute;
+    margin-top: 25px;
+    background-color: #ffd800;
+}
+.level-2{
+    width: 100%;
+    height: 400px;
+}
+.half-right img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.level-3 {
+    width: 100%;
+    height: 619px;
+    overflow: hidden;
+}
+.level-3 video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.pad{
+    padding-bottom: 10px;
+}
+.level-4{
+    width: 100%;
+    height: 400px;
+    background-color: aqua;
+
+}
+#baground{
+    background-color: #fff;
+}
+#text-color{
+    color: #000;
+}
+.button-3{
+    background-color: rgba(0,0,0,.0);
+    border-width: 0;
+    color: #000;
+}
+.footer {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(235, 234, 234);
+    display: flex;
+}
+li{
+    list-style-type: none;
+    padding-bottom: 10px;
+    cursor: pointer;
+    width: max-content;
+    position: relative;
+}
+ol{
+    padding-left: 60px;
+    cursor: pointer;
+}
+.tail{
+    width: 100%;
+    height: 45px;
+    background-color: rgb(235, 234, 234);
+}
+.img-size{
+    width: 21px;
+    padding-left: 70px;
+}
+h3:before{
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    height: 6xp;
+    width: 0;
+    left: 0;
+    background-color: #000;
+    transition: 0.3s ease;
+    
+
+}
+li:hover{
+    text-decoration: solid green 3px underline;
+}
